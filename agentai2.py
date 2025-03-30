@@ -19,7 +19,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
 # Set Streamlit Page Config
-st.set_page_config(page_title="Agentic AI", layout="centered")
+st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
 
 # API Key Handling
 if "openai_api_key" not in st.session_state:
@@ -65,7 +65,7 @@ agent = initialize_agent(
 )
 
 # Streamlit UI
-st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
+#st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
 
 st.title("🌍 Agentic AI Travel Assistant")
 st.write("Hello! I'm your AI travel assistant, ready to help you with:")
