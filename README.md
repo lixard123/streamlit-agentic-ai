@@ -58,6 +58,8 @@ Enter a query (e.g., "Tell me about Kenya National Archives" or "Weather in New 
 Enter a query (e.g., "Tell me about the best places to visit in Nairobi with the current weather").
 Enter a query (e.g., "Tell me about the best places tourist destinations in Kenya").
 Enter a query (e.g., "Tell me how to make Ugali").
+Enter a query (e.g., "Tell me how to make Chapati").
+Enter a query (e.g., "Tell me how to make Githeri").
 
 Click "Run Agent".
 
