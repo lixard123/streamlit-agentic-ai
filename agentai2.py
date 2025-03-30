@@ -65,8 +65,25 @@ agent = initialize_agent(
 )
 
 # Streamlit UI
-st.title("🌟 Agentic AI - Chat with an Intelligent Agent")
-st.text("Ask me about anything"")
+st.set_page_config(page_title="Agentic AI Travel Assistant", layout="centered")
+    
+    st.title("🌍 Agentic AI Travel Assistant")
+    st.subheader("Your Smart Guide for Travel Information")
+    
+    st.write("Hello! I'm your AI-powered travel assistant. I can help you with:")
+    
+    features = [
+        "📍 Discovering places and attractions",
+        "🌦️ Providing real-time weather updates",
+        "🍽️ Recommending cuisines and local food specialties",
+        "✈️ Suggesting tourist destinations and travel tips",
+        "📅 Planning your itinerary with useful insights"
+    ]
+    
+    for feature in features:
+        st.markdown(f"- {feature}")
+    
+    st.write("Ask me anything about travel, and I'll assist you with the best recommendations!")
 # User Input
 query = st.text_input("Enter your query:", "")
 
