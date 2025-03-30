@@ -54,7 +54,10 @@ Click Deploy and get a shareable URL!
 
 📌 Usage
 
-Enter a query (e.g., "Kenya National Archives" or "Weather in New York").
+Enter a query (e.g., "Tell me about Kenya National Archives" or "Weather in New York").
+Enter a query (e.g., "Tell me about the best places to visit in Nairobi with the current weather").
+Enter a query (e.g., "Tell me about the best places tourist destinations in Kenya").
+Enter a query (e.g., "Tell me how to make Ugali").
 
 Click "Run Agent".
 
