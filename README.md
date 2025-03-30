@@ -82,4 +82,4 @@ This project is licensed under the MIT License.
 
 For any inquiries, reach out duncan.ngacha@gmail.com
 
-🔗 Live Demo: Streamlit App URL
+🔗 Live Demo:https://app-agentic-ai-23dqxhusvtpwdil69srhjq.streamlit.app/
