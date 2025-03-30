@@ -50,9 +50,9 @@ def search_wikipedia_updated(query):
     except wikipedia.exceptions.DisambiguationError as e:
         return f"Multiple results found: {', '.join(e.options[:5])}. Please specify."
     except wikipedia.exceptions.PageError:
-        return f"No Wikipedia page found for '{query}'."
+        return f"Sorry No Wikipedia information found for '{query}'."
     except Exception as e:
-        return f"Error: {str(e)}"
+        return f"I could not find any information found on '{query}'."
 
 # Define Agent Tools
 weather_tool = Tool(name="Weather Tool", func=get_weather_updated, description="Get live weather updates")
