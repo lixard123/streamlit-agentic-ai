@@ -7,15 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/12GDsbsuHD3C3yeeIsgy1gMGrxxiKGkLg
 """
 
-#!pip install streamlit
-#!pip install langchain
-#!pip install openai
-#!pip install python-dotenv
-#!pip install langchain_community
-#!pip install -U langchain langchain-openai
-#!pip install requests
-#!pip install wikipedia
-#!pip install python-dotenv
+
 
 import streamlit as st
 import requests
