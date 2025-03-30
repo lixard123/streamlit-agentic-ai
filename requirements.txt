@@ -3,6 +3,6 @@ langchain
 openai
 python-dotenv
 requests
-wikipedia-api
+wikipedia
 langchain_community
 langchain-openai
