@@ -52,7 +52,7 @@ def search_wikipedia_updated(query):
     except wikipedia.exceptions.PageError:
         return f"Sorry No Wikipedia information found for '{query}'."
     except Exception as e:
-        return f"I could not find any information found on '{query}'."
+        return f"I could not find any information on '{query}'."
 
 # Define Agent Tools
 weather_tool = Tool(name="Weather Tool", func=get_weather_updated, description="Get live weather updates")
@@ -66,7 +66,7 @@ agent = initialize_agent(
 
 # Streamlit UI
 st.title("🌟 Agentic AI - Chat with an Intelligent Agent")
-
+st.text("Ask me about anything"")
 # User Input
 query = st.text_input("Enter your query:", "")
 
