@@ -14,8 +14,8 @@ Original file is located at
 #!pip install langchain_community
 #!pip install -U langchain langchain-openai
 #!pip install requests
-!pip install wikipedia
-!pip install python-dotenv
+#!pip install wikipedia
+#!pip install python-dotenv
 
 import streamlit as st
 import requests
