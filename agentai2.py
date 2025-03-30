@@ -65,7 +65,7 @@ agent = initialize_agent(
 )
 
 # Streamlit UI
- st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
+st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
 
 st.title("🌍 Agentic AI Travel Assistant")
 st.write("Hello! I'm your AI travel assistant, ready to help you with:")
