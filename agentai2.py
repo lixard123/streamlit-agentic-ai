@@ -65,22 +65,26 @@ agent = initialize_agent(
 )
 
 # Streamlit UI
-st.set_page_config(page_title="Agentic AI Travel Assistant", layout="centered")
-    
+ st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", layout="centered")
+
 st.title("🌍 Agentic AI Travel Assistant")
-st.subheader("Your Smart Guide for Travel Information")
-st.write("Hello! I'm your AI-powered travel assistant. I can help you with:")
-features = [
-        "📍 Discovering places and attractions",
-        "🌦️ Providing real-time weather updates",
-        "🍽️ Recommending cuisines and local food specialties",
-        "✈️ Suggesting tourist destinations and travel tips",
-        "📅 Planning your itinerary with useful insights"
-    ]
+st.write("Hello! I'm your AI travel assistant, ready to help you with:")
+features = {
+        "📍 Places": "Get details about cities, landmarks, and hidden gems.",
+        "🌦️ Weather": "Real-time weather forecasts for any location.",
+        "🍽️ Cuisines": "Discover local and international food specialties.",
+        "🏝️ Destinations": "Explore top tourist attractions and experiences.",
+        "🛫 Travel Tips": "Get the best travel advice and itinerary planning."
+    }
+for icon, description in features.items():
+        st.markdown(f"- {icon}: {description}")
     
-for feature in features:
-        st.markdown(f"- {feature}")
-st.write("Ask me anything about travel, and I'll assist you with the best recommendations!")
+st.write("Ask me anything related to your travel needs!")
+    
+#user_query = st.text_input("What would you like to know?", "Best tourist spots in Paris")
+#  if st.button("Get Information"):
+#        with st.spinner("Fetching details..."):
+#  */          st.success(f"Here is some information about: **{user_query}** (API integration pending)")
 
 # User Input
 query = st.text_input("Enter your query:", "")
