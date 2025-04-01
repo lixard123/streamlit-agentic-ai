@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 import os
 
 # Load API keys securely from Streamlit secrets
-openai_api_key = st.secrets.get("OPENAI_API_KEY", "")
+openai_api_key = st.secrets.get("OPENAI_API_KEY_1", "")
 weather_api_key = st.secrets.get("OPENWEATHER_API_KEY", "")
 flight_api_key = st.secrets.get("FLIGHT_API_KEY", "")
 
