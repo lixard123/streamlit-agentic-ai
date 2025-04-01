@@ -23,7 +23,7 @@ st.set_page_config(page_title="Agentic AI Travel Assistant", page_icon="🌍", l
 
 # API Key Handling
 if "openai_api_key" not in st.session_state:
-    st.session_state["openai_api_key"] = st.secrets.get("OPENAI_API_KEY", "")
+    st.session_state["openai_api_key"] = st.secrets.get("OPENAI_API_KEY_1", "")
 
 if not st.session_state["openai_api_key"]:
     st.warning("Please add your OpenAI API key in Streamlit Secrets to proceed.")
